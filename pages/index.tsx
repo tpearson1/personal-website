@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <div className="px-40">
+    <div className="px-10 md:px-40">
       <Head>
         <title>Thomas Pearson | Software Developer</title>
         <meta name="description" content="About me" />
@@ -12,8 +12,8 @@ const Home: NextPage = () => {
 
       <main className="min-h-screen grid place-items-center">
         <div>
-          <h1 className="text-6xl">Hi, I&rsquo;m Thomas Pearson</h1>
-          <h2 className="text-3xl text-gray-500">I make software</h2>
+          <h1 className="text-2xl md:text-6xl">Hi, I&rsquo;m Thomas Pearson</h1>
+          <h2 className="text-xl md:text-3xl text-gray-500">I make software</h2>
 
           <div>
             <ul className="border-l-4 border-gray-400 ml-8 mt-8 pl-10">
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="fixed bottom-8 right-8">
-        <span className="text-xl">
+        <span className="text-lg md:text-xl">
           Contact:{' '}
           <a href="mailto:hello@thomaspearson.me">hello@thomaspearson.me</a>
         </span>
