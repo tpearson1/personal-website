@@ -1,6 +1,6 @@
 ## Introduction
 
-Personal website built with Next.js. Builds as a static site.
+Personal website built with [Astro](https://astro.build/). Builds as a static site.
 
 Local Development:
 

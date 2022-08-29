@@ -1,7 +1,6 @@
 .github/
-.next/
 node_modules/
-out/
+dist/
 .dockerignore
 .gitignore
 README.md

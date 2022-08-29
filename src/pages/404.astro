@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="404">
+  <div class="w-screen h-screen flex justify-center items-center">
+    <main>
+      <div class="flex items-center flex-col md:flex-row">
+        <div class="text-6xl mb-4 md:text-8xl md:mb-6 flex">
+          <div>4</div>
+          <div class="relative">
+            0{/* Sad face in the 0 of the 404 */}
+            <div class="absolute left-0 [bottom:12px]">
+              <div
+                class="[transform:scale(0.5)_translate(-23px,38px)] md:transform-none"
+              >
+                <svg
+                  height="60"
+                  width="60"
+                  class="hover:rotate-180 transition-transform"
+                >
+                  <circle cx="26" cy="17" r="4"></circle>
+                  <circle cx="36" cy="17" r="4"></circle>
+                  <line
+                    x1="19"
+                    y1="31"
+                    x2="39"
+                    y2="41"
+                    stroke="black"
+                    stroke-width="4"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <dev>4</dev>
+        </div>
+        <div class="text-center md:text-left md:pl-8 md:text-xl">
+          <span class="text-slate-600">This page does not exist</span>
+          <a href="/" class="block mt-1">Back home</a>
+        </div>
+      </div>
+    </main>
+  </div>
+</Layout>
