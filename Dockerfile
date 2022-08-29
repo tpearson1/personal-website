@@ -3,6 +3,7 @@ WORKDIR /usr/src/app
 
 COPY package.json package-lock.json ./
 RUN npm ci
+COPY public ./public
 COPY src ./src
 COPY .npmrc astro.config.mjs postcss.config.js tailwind.config.js tsconfig.json ./
 RUN npm run build
